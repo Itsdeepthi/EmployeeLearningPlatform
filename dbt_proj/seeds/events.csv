@@ -1,0 +1,30 @@
+_id,title,domain,date,duration,trainerName,location,desc,capacity,currentcapacity
+66167c20e10537e70a816c8d,Fullstack Development Bootcamp,Fullstack,24-04-2024,1,Devinne,aurum,Fullstack Development Bootcamp is an intensive training program,57,37
+66167c20e10537e85f4fe4b0,Data Analysis Workshop,Data,19-04-2024,3,Mandie,tardis,Data Analysis Workshop provides hands-on analytical skills,66,38
+66167c20e10537e7916ba1e0,Cloud Computing Certification Course,Cloud,20-04-2024,4,Quintana,groot,Cloud Computing Certification Course covers cloud infrastructure and services,54,21
+66167c20e10537e8c57ab3e8,Frontend Frameworks Masterclass,Fullstack,23-04-2024,3,Arv,tardis,Frontend Frameworks Masterclass focuses on modern web development tools,69,39
+66167c20e10537e83cb67476,Machine Learning Fundamentals Training,Data,21-04-2024,4,Kit,aurum,Machine Learning Fundamentals Training introduces basic machine learning concepts,57,39
+66167c20e10537e83e6ca509,DevOps Essentials Workshop,Data,22-04-2024,1,Marlee,jarvis,DevOps Essentials Workshop covers practices for software development and operations,55,34
+66167c20e10537e8928bbf86,Cybersecurity Basics Seminar,Cybersecurity,19-04-2024,5,Aldis,aurum,Cybersecurity Basics Seminar provides foundational knowledge in cybersecurity,61,22
+66167c20e10537e7c52103c9,Agile Project Management Training,Agile,28-04-2024,4,Orsa,aurum,Agile Project Management Training teaches agile methodologies and practices,67,38
+66167c20e10537e71b41aa82,Database Administration Crash Course,Database,27-04-2024,5,Karee,groot,Database Administration Crash Course covers essential database management skills,58,25
+66167c20e10537e8a3bcf189,IoT Solutions Workshop,IoT,27-04-2024,5,Barbara,groot,IoT Solutions Workshop explores Internet of Things technologies and applications,61,33
+66167c20e10537e8b1b76003,Web Development Fundamentals Bootcamp,Fullstack,29-04-2024,1,Kaitlynn,groot,Web Development Fundamentals Bootcamp provides basic web development skills,65,20
+66167c20e10537e6c405f851,Big Data Analytics Certification Course,Data,23-04-2024,2,Cirillo,groot,Big Data Analytics Certification Course covers data analytics tools and techniques,62,39
+66167c20e10537e770366221,Cloud Security Best Practices Seminar,Cloud,24-04-2024,4,Rose,aurum,Cloud Security Best Practices Seminar focuses on securing cloud environments,52,21
+66167c20e10537e7c2855baa,Software Testing Techniques Workshop,Fullstack,25-04-2024,1,Neddy,jarvis,Software Testing Techniques Workshop covers software testing methodologies,50,22
+66167c20e10537e841ea2dd5,Blockchain Technology Overview Session,Blockchain,25-04-2024,3,Amaleta,tardis,Blockchain Technology Overview Session introduces blockchain concepts and applications,64,33
+66167c20e10537e7a67f3ebc,AI and ML Applications in Business Training,Data,28-04-2024,1,Jeannine,falcon,AI and ML Applications in Business Training explores business applications of AI and ML,53,21
+66167c20e10537e82b6ef78d,Network Security Fundamentals Workshop,Network,26-04-2024,4,Gavan,jarvis,Network Security Fundamentals Workshop covers essential network security concepts,53,39
+66167c20e10537e80c7b869f,Mobile App Development Bootcamp,Fullstack,28-04-2024,2,Lindsy,jarvis,Mobile App Development Bootcamp provides skills to develop mobile applications,56,28
+66167c20e10537e7b003c74e,Data Visualization Techniques Training,Data,26-04-2024,5,Dory,falcon,Data Visualization Techniques Training covers data visualization tools and methods,67,39
+66167c20e10537e875099c2a,Cloud Migration Strategies Workshop,Cloud,21-04-2024,1,Cullin,tardis,Cloud Migration Strategies Workshop focuses on cloud migration planning and execution,56,31
+66167c20e10537e752949fc5,Cybersecurity Threats and Mitigation Seminar,Cybersecurity,23-04-2024,2,Gabey,jarvis,Cybersecurity Threats and Mitigation Seminar discusses cybersecurity threats and mitigation strategies,56,23
+66167c20e10537e6d7ef1236,Agile Scrum Master Certification Course,Agile,19-04-2024,4,Garrett,tardis,Agile Scrum Master Certification Course prepares individuals for Scrum Master roles,59,33
+66167c20e10537e6dda6cc34,Database Design and Optimization Workshop,Database,20-04-2024,2,Hollis,falcon,Database Design and Optimization Workshop covers database design and optimization techniques,60,37
+66167c20e10537e7714b2053,IoT Security Best Practices Training,IoT,21-04-2024,3,Aaren,groot,IoT Security Best Practices Training focuses on securing Internet of Things devices and networks,54,40
+66167c20e10537e72c310187,Web Development Frameworks Deep Dive Bootcamp,Fullstack,29-04-2024,1,Galven,aurum,Web Development Frameworks Deep Dive Bootcamp provides in-depth training on web development frameworks,56,34
+66167c20e10537e6f9e78669,Big Data Processing Techniques Workshop,Data,29-04-2024,4,Broddy,falcon,Big Data Processing Techniques Workshop covers big data processing and analysis techniques,57,33
+66167c20e10537e80985c409,Cloud Architecture Design Principles Seminar,Cloud,22-04-2024,5,Bronny,jarvis,Cloud Architecture Design Principles Seminar discusses principles for designing cloud architectures,70,38
+66167c20e10537e73df52120,Software Quality Assurance Training,Fullstack,20-04-2024,2,Crysta,falcon,Software Quality Assurance Training covers software quality assurance methodologies and practices,67,23
+66167c20e10537e7a3c972f6,Blockchain Development Fundamentals Bootcamp,Blockchain,21-04-2024,1,Neel,groot,Blockchain Development Fundamentals Bootcamp provides foundational training in blockchain development.,59,30

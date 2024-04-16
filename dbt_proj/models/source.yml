@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: employee
+    database: EMPLOYEE_LEARNING
+    schema: PUBLIC
+    tables:
+      - name: users
+      - name: trainingevents
+      - name: skills
+      - name: likes
+      - name: userregisters
+      - name: trainevents
+      - name: events

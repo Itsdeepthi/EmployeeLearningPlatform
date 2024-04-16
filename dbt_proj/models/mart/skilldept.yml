@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: "skilldept"
+    description: Find all the events details in the organisation
+    columns:
+      - name: "DEPARTMENT"
+        description: Department associated with the organisation
+        tests:
+          - not_null
+      - name: "SKILL"
+        description: Skills associated with the users
+        tests:
+          - not_null
+      - name: "User_Count"
+        description: Number of Users with that skill in the department
+        tests:
+          - not_null
+      
