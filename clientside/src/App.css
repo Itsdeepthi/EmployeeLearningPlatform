@@ -1,0 +1,519 @@
+ :root {
+  --primary-color: #F2613F;
+  --secondary-color: #9B3922;
+  --tertiary-color: #481E14;
+  --quaternary-color: #0C0C0C; 
+} 
+
+/* :root {
+  --primary-color: #FFC94A;
+  --secondary-color: #C08B5C;
+  --tertiary-color: #795458;
+  --quaternary-color: #453F78;
+  --background-color: #f4f4f4; 
+ */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #333333;;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #333333;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 40px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Subtract header height */
+  font-size: 26px;
+  margin-top: 80px;
+}
+
+.login-form {
+  margin-top: 20px;
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: var(--tertiary-color);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  width: 300px;
+  font-size: 26px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Subtract header height */
+  font-size: 20px;
+  padding: 50px;
+  margin-top: 10px;
+}
+
+.skill-form {
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.form-grp {
+  margin-bottom: 20px;
+}
+
+.form-grp label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.form-grp input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--secondary-color);
+  font-size: 16px;
+  color: white;
+}
+
+.skill-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.skill-buttons button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.skill-buttons button:nth-child(1) {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.skill-buttons button:nth-child(1):hover {
+  background-color: var(--tertiary-color);
+}
+
+.skills-list {
+  width: 60%;
+  max-width: 600px;
+  background-color: var(--quaternary-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list h3 {
+  color: var(--primary-color);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.skills-list li strong {
+  font-weight: bold;
+}
+
+.skills-list li span {
+  font-style: italic;
+}
+
+.form-group {
+  margin-bottom: 50px;
+  font-size: 26px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-select {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #db1010;
+  background-color: var(--secondary-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>');
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
+  cursor: pointer;
+}
+
+.form-option {
+  padding: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px;
+  background-color: var(--secondary-color);
+}
+
+.form-group select {
+  width: 105%;
+  padding: 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 18px;
+  background-color: var(--secondary-color);
+}
+
+.change-password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*height: calc(100vh - 80px); /* Subtract header height */
+  font-size: 20px;
+  padding: 20px;
+}
+
+.change-password-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.change-password-buttons button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.change-password-buttons button:nth-child(1) {
+  background-color: var(--secondary-color);
+  color: rgb(0, 0, 0);
+}
+
+.change-password-buttons button:nth-child(1):hover {
+  background-color: var(--tertiary-color);
+}
+
+.login-buttons {
+  margin-left: 40px;
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.login-buttons button {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-buttons button:nth-child(1) {
+  background-color: var(--secondary-color);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.login-buttons button:nth-child(1):hover {
+  background-color: var(--tertiary-color);
+}
+
+.login-buttons button:nth-child(2) {
+  background-color: var(--secondary-color);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.login-buttons button:nth-child(2):hover {
+  background-color: var(--tertiary-color);
+}
+
+.create-event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-top: 40px; /* Add a margin to create a gap */
+  padding: 20px;
+}
+
+
+.create-user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px; /* Subtract header height */
+  font-size: 20px;
+  padding: 20px;
+}
+
+.user-form button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.user-form button:hover {
+  background-color: var(--tertiary-color);
+}
+
+.user-form {
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.create-user-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.create-user-buttons button {
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.create-user-buttons button:nth-child(1) {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.create-user-buttons button:nth-child(1):hover {
+  background-color: var(--tertiary-color);
+}
+
+
+
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dashboard-container button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  margin-top: 10px;
+}
+
+.dashboard-container button:hover {
+  background-color: var(--tertiary-color);
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+   position: absolute;
+  right: 20px; 
+
+}
+
+.header-buttons button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+.header-buttons button:hover {
+  background-color: var(--tertiary-color);
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 50px; /* Add margin to center the "Register Event" text */
+
+}
+
+.event-card {
+  width: calc(33.33% - 20px); /* Subtract 20px to account for margin or padding */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--quaternary-color);
+  color: white;
+  text-align: center;
+}
+
+.event-card h3 {
+  color: var(--primary-color);
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.event-card p {
+  margin-bottom: 10px;
+}
+
+.event-card button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.event-card button:hover {
+  background-color: var(--tertiary-color);
+}
+
+.event-card button + button {
+  margin-left: 10px;
+}
+
+.App-header h1 {
+  margin: 0 auto;
+}
+
+
+/* Responsive layout */
+@media screen and (max-width: 1024px) {
+  .event-card {
+    width: calc(50% - 20px); /* Two cards per row */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-form {
+    padding: 30px;
+    width: 80%;
+  }
+
+  .form-group input {
+    padding: 10px;
+  }
+
+  .login-buttons {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .event-card {
+    width: 100%; /* One card per row */
+  }
+
+  .App-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .dashboard-container button {
+    margin-bottom: 10px;
+  }
+
+  .header-buttons {
+    margin-top: 20px;
+    position: static;
+
+  }
+}
+
+h1 {
+  text-align: center;
+}
